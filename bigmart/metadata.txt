@@ -1,0 +1,88 @@
+
+
+
+Item_Identifier----- ['FDA15' 'DRC01' 'FDN15' ... 'NCF55' 'NCW30' 'NCW05']
+Item_Fat_Content---- ['Low Fat' 'Regular' 'low fat' 'LF' 'reg']
+Item_Type----------- ['Dairy' 'Soft Drinks' 'Meat' 'Fruits and Vegetables' 'Household'
+ 'Baking Goods' 'Snack Foods' 'Frozen Foods' 'Breakfast'
+ 'Health and Hygiene' 'Hard Drinks' 'Canned' 'Breads' 'Starchy Foods'
+ 'Others' 'Seafood']
+Outlet_Identifier--- ['OUT049' 'OUT018' 'OUT010' 'OUT013' 'OUT027' 'OUT045' 'OUT017' 'OUT046'
+ 'OUT035' 'OUT019']
+Outlet_Size--------- ['Medium' nan 'High' 'Small']
+Outlet_Location_Type ['Tier 1' 'Tier 3' 'Tier 2']
+Outlet_Type--------- ['Supermarket Type1' 'Supermarket Type2' 'Grocery Store'
+ 'Supermarket Type3']
+
+
+
+
+ Item_Identifier              0.000000
+Item_Weight                  0.171653
+Item_Fat_Content             0.000000
+Item_Visibility              0.000000
+Item_Type                    0.000000
+Item_MRP                     0.000000
+Outlet_Identifier            0.000000
+Outlet_Establishment_Year    0.000000
+Outlet_Size                  0.282764
+Outlet_Location_Type         0.000000
+Outlet_Type                  0.000000
+Item_Outlet_Sales            0.000000
+dtype: float64
+
+
+code={
+
+    'FDA15':0,
+    'DRC01':1,
+    'FDN15':2,
+    'NCF55':3,
+    'NCW30':4,
+    'NCW05':5,
+    '...':59,
+    'Low Fat':0,
+    'Regular':1,
+    'low fat':2,
+    'LF':3,
+    'reg':4,
+    'Dairy':0,
+    'Soft Drinks':1,
+    'Meat':2,
+    'Fruits and Vegetables':3,
+    'Household':4,
+    'Baking Goods':5, 
+    'Snack Foods':6,
+    'Frozen Foods':7,
+    'Breakfast':8,
+    'Health and Hygiene':9,
+    'Health and Hygiene':10,
+    'Hard Drinks':11,
+    'Canned':12,
+    'Breads':13,
+    'Starchy Foods':14,
+    'Others':15,
+    'Seafood':16,
+    'OUT049':0,
+    'OUT018':1,
+    'OUT010':2, 
+    'OUT013':3, 
+    'OUT027':4, 
+    'OUT045':5, 
+    'OUT017' :6,
+    'OUT046':7,
+    'OUT035' :8,
+    'OUT019':9,
+    'Medium' :0,
+    'High':1, 
+    'Small':2,
+    'nan':50, 
+    'Tier 1':0,
+    'Tier 3' :1,
+    'Tier 2':2,
+    'Supermarket Type1':0,
+    'Supermarket Type2':1,
+    'Grocery Store':2,
+    'Supermarket Type3':3
+
+}
